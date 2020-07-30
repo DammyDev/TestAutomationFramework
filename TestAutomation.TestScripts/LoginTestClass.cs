@@ -37,7 +37,7 @@ namespace TestAutomation.TestScripts
             {
                 ITakesScreenshot ts = chromeDriver as ITakesScreenshot;
                 Screenshot screenshot = ts.GetScreenshot();
-                screenshot.SaveAsFile(@"C:\Users\USER01\source\repos\TestAutomationFramework\Screenshots\TestReport.jpg");
+                screenshot.SaveAsFile(@"C:\Users\Damilola\source\repos\TestAutomationFramework\Screenshots\TestReport.jpg");
                 Console.WriteLine(e.StackTrace);
                 test.Log(Status.Fail, e.ToString());
                 throw;

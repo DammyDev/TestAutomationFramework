@@ -14,7 +14,7 @@ namespace TestAutomation.TestScripts.Common.Utility
         {
             BrowserUtility.Init();
             extent = new ExtentReports();
-            var htmlReporter = new ExtentHtmlReporter(@"C:\Users\USER01\source\repos\TestAutomationFramework\Extent_Reports\Report.html");
+            var htmlReporter = new ExtentHtmlReporter(@"C:\Users\Damilola\source\repos\TestAutomationFramework\Extent_Reports\Report.html");
             extent.AttachReporter(htmlReporter);
         }
 
